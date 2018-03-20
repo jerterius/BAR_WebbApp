@@ -15,9 +15,7 @@ public class MovieEAOImpl implements MovieEAOLocal {
 	@PersistenceContext(unitName = "LabEJBSql")
 	private EntityManager em;
 
-	/**
-	 * Default constructor.
-	 */
+	//Jag lägger till något fint här.
 	public MovieEAOImpl() {
 		// TODO Auto-generated constructor stub
 	}
